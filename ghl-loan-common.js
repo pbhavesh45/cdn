@@ -39,8 +39,10 @@
   const STEP_ROUTES = {
     "/basic-information": "step1",
     "/residence-financial": "step2",
-    "/loan-details": "step3",
-    "/signature": "step4"
+    "/loan-amount": "step3",
+    "/loan-calculation": "step4",
+    "/veryfy-details": "step5",
+    "/checkout": "step6"
   };
 
   // 📍 Detect current step from URL
