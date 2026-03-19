@@ -55,7 +55,7 @@ label {
 }
 
 /* ✍️ Inputs */
-input, textarea {
+input.form-control, textarea {
   width: 100% !important;
   border: 1px solid #e2e8f0 !important;
   border-radius: 10px !important;
@@ -81,7 +81,7 @@ input:focus, select:focus, textarea:focus {
 }
 
 /* 🚀 Button */
-button, .btn {
+button.button-element, .btn {
   width: 100% !important;
   background: linear-gradient(135deg, #22c55e, #16a34a) !important;
   border: none !important;
