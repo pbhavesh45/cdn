@@ -16,13 +16,23 @@
     step3: {
       key: "step3_completed",
       next: "step4",
-      url: "/loan-details"
+      url: "/loan-amount"
     },
     step4: {
       key: "step4_completed",
       next: "step5",
-      url: "/signature"
+      url: "/loan-calculation"
+    },
+    step5: {
+      key: "step5_completed",
+      next: "step6",
+      url: "/veryfy-details"
+    },
+    step6: {
+      key: "step6_completed",
+      url: "/checkout"
     }
+    
   };
 
   // 🧭 Route mapping
